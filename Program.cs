@@ -33,7 +33,7 @@ namespace KnowledgeCheck2
 
             // Print out the list of records using Console.WriteLine()
             foreach (var entry in recordList)
-                Console.WriteLine("Wine: " + entry.TypeName + "\nTitle: " + entry.Flavor + "\n");
+                Console.WriteLine("\nWine: " + entry.TypeName + "\nType: " + entry.Flavor + "\n");
 
         }
     }
